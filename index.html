@@ -21,8 +21,10 @@
 
             <ul class="layui-nav layui-layout-right">
                 <li class="layui-nav-item">
-                    <a href="javascript:;">
-                        <img src="http://t.cn/RCzsdCq" class="layui-nav-img"> 个人中心
+                    <a href="javascript:;" class="user">
+                        <img src="http://t.cn/RCzsdCq" class="layui-nav-img">
+                        <span class="txt">A</span>
+                        <span> 个人中心</span>
                     </a>
                     <dl class="layui-nav-child">
                         <dd><a href="">基本资料</a></dd>
@@ -31,15 +33,26 @@
 
                     </dl>
                 </li>
-                <li class="layui-nav-item"><a href="javascript:;"><span class="iconfont icon-tuichu"></span>退出</a></li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;" id="out">
+                        <span class="iconfont icon-tuichu"></span>退出</a>
+                </li>
             </ul>
         </div>
 
         <div class="layui-side layui-bg-black">
             <div class="layui-side-scroll">
+                <div class="user">
+                    <img src="http://t.cn/RCzsdCq" class="layui-nav-img">
+                    <span class="txt">A</span>
+                    <span class="welcome"> 个人中心</span>
+                </div>
                 <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
                 <ul class="layui-nav layui-nav-tree" lay-shrink='all' lay-filter="test">
-                    <li class="layui-nav-item layui-this"><a href="/home/dashboard.html" target="fm"><span class="iconfont icon-home"></span>首页</a></li>
+                    <li class="layui-nav-item layui-this">
+                        <a href="/home/dashboard.html" target="fm">
+                            <span class="iconfont icon-home"></span>首页</a>
+                    </li>
                     <li class="layui-nav-item ">
                         <a class="" href="javascript:;"><span class="iconfont icon-16"></span>文章管理</a>
                         <dl class="layui-nav-child">
@@ -73,6 +86,9 @@
         </div>
     </div>
     <script src="assets/lib/layui/layui.all.js"></script>
+    <script src="assets/lib/jquery.js"></script>
+    <script src="assets/js/baseAPI.js"></script>
+    <script src="assets/js/index.js"></script>
     <script>
     </script>
 </body>

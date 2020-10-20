@@ -18,3 +18,37 @@ iframe {
 a {
     transition: none !important;
 }
+
+.txt {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #009688;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+}
+
+.user {
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+
+.user img {
+    width: 40px;
+    height: 40px;
+}
+
+.welcome {
+    font-size: 12px;
+}
+
+.layui-side-scroll .user {
+    border-bottom: 1px solid #23262E;
+}
